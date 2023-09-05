@@ -1,0 +1,60 @@
+<!-- # 📁 authapp/templates/index.html ---->
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Auth0 Example</title>
+</head>
+
+<body>
+    {% if session %}
+    <h1>Welcome {{session.userinfo.name}}!</h1>
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+    <div>
+        <pre>{{pretty}}</pre>
+        <img src="{{session.userinfo.picture}}"/>
+        <p><strong>Email :</strong> {{session.userinfo.email}}</p>
+        <label>Name: {{session.userinfo.name}}</label><br />
+        <label>username : {{session.userinfo.nickname}} (might be used later)</label><br />
+        <label>Updated At: <span id="updatedAt"></span></label><br />
+    </div>
+
+<div>
+    <h2>Scraped Social Media Profiles:</h2>
+    <h3>Medium Profile:</h3>
+    {% comment %} <pre>{{ medium_html }}</pre> {% endcomment %}
+<br/>
+    <h3>Instagram Profile:</h3>
+    <pre>{{ instagram_html }}</pre>
+</div>
+
+
+    <script>
+        // Convert ISO 8601 timestamp to day/month/year format
+        var updatedAtISO = "{{session.userinfo.updated_at}}";
+        var updatedAt = new Date(updatedAtISO);
+        var day = updatedAt.getDate();
+        var month = updatedAt.getMonth() + 1; // Months are 0-based
+        var year = updatedAt.getFullYear();
+        var hours = updatedAt.getHours();
+        var minutes = updatedAt.getMinutes();
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        var formattedUpdatedAt = day + '/' + month + '/' + year + ' ' + hours + ':' + (minutes < 10 ? '0' : '') + minutes + ' ' +ampm;
+        document.getElementById("updatedAt").textContent = formattedUpdatedAt;
+    </script>
+
+
+    {% else %}
+    <h1>Welcome Guest</h1>
+    <p><a href="{% url 'login' %}">Login</a></p>
+    {% endif %}
+</body>
+
+</html>
+
+<!-- https://medium.com/@hm6091999 -->
+<!-- https://www.instagram.com/hm6091999/ -->
+<!-- https://www.linkedin.com/in/harshittext/ -->
