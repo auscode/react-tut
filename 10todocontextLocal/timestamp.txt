@@ -1,0 +1,20 @@
+1:20  basic overview
+5:40  Project Setup TODO
+8:20  Context API setup
+12:08 Todo overall Functionality
+13:50 initialising prop and func
+19:00 creating index.js for import reduction
+20:30 UI app.js from README
+21:20 State Creation of Todo
+22:00 Add TODO functionality
+29:18 update TODO functionality
+33:23 Delete TODO functionality
+35:26 toggle Checkbox TODO functionality
+39:35 basic functionality ended here
+39:50 Local Storage
+41:20 useEffect JSON Local Storage
+47:30 Components
+49:30 Todo Form
+56:34 Todo Item
+1:09:30 Debug
+1:13:40 Dhanyawad and Push it
