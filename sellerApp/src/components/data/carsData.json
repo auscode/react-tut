@@ -1,0 +1,217 @@
+{
+  "cars": [
+    {
+      "car_name": "Toyota Camry",
+      "launch_year": 2022,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "20.4 km/l",
+      "shift_type": "Automatic",
+      "price": "$440/month",
+      "images": "images/img1.jpg"
+    },
+    {
+      "car_name": "Honda Civic",
+      "launch_year": 2021,
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "15.7 km/l",
+      "shift_type": "Automatic",
+      "price": "$440/month",
+      "images": "images/img2.jpg"
+    },
+    {
+      "car_name": "Tesla Model 3",
+      "launch_year": 2020,
+      "seating_capacity": 5,
+      "fuel_type": "Electric",
+      "mileage": "4.8 miles/kWh",
+      "shift_type": "Automatic",
+      "price": "$440/month",
+      "images": "images/img3.jpg"
+    },
+    {
+      "car_name": "Ford Mustang",
+      "launch_year": 2023,
+      "seating_capacity": 4,
+      "fuel_type": "Gasoline",
+      "mileage": "12.5 km/l",
+      "shift_type": "Manual",
+      "price": "$440/month",
+      "images": "images/img1.jpg"
+    },
+    {
+      "car_name": "Chevrolet Silverado",
+      "launch_year": 2021,
+      "seating_capacity": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "10.2 km/l",
+      "shift_type": "Automatic",
+      "price": "$440/month",
+      "images": "images/img2.jpg"
+    },
+    {
+      "car_name": "Nissan Leaf",
+      "launch_year": 2019,
+      "seating_capacity": 5,
+      "fuel_type": "Electric",
+      "mileage": "3.9 miles/kWh",
+      "shift_type": "Automatic",
+      "price": "$440/month",
+      "images": "images/img3.jpg"
+    },
+    {
+      "car_name": "BMW 3 Series",
+      "launch_year": 2022,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "17.6 km/l",
+      "shift_type": "Automatic",
+      "price": "$440/month"
+    },
+    {
+      "car_name": "Volkswagen Golf",
+      "launch_year": 2021,
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "14.8 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Audi A4",
+      "launch_year": 2023,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "18.2 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Hyundai Sonata",
+      "launch_year": 2020,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "19.3 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Kia Forte",
+      "launch_year": 2022,
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "13.2 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Mazda CX-5",
+      "launch_year": 2021,
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "11.9 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Subaru Outback",
+      "launch_year": 2023,
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "12.8 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Volvo XC60",
+      "launch_year": 2020,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "15.6 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Lexus ES",
+      "launch_year": 2022,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "16.3 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Mercedes-Benz E-Class",
+      "launch_year": 2021,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "17.1 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Porsche 911",
+      "launch_year": 2023,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "9.6 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Jeep Wrangler",
+      "launch_year": 2022,
+      "seating_capacity": 4,
+      "fuel_type": "Gasoline",
+      "mileage": "9.0 km/l",
+      "shift_type": "Manual"
+    },
+    {
+      "car_name": "Land Rover Range Rover",
+      "launch_year": 2020,
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "mileage": "10.5 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Ferrari 488",
+      "launch_year": 2021,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "7.6 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Aston Martin DB11",
+      "launch_year": 2022,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "8.2 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Maserati GranTurismo",
+      "launch_year": 2023,
+      "seating_capacity": 4,
+      "fuel_type": "Gasoline",
+      "mileage": "7.9 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Lamborghini Aventador",
+      "launch_year": 2020,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "5.2 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Lamborghini Aventador",
+      "launch_year": 2020,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "5.2 km/l",
+      "shift_type": "Automatic"
+    },
+    {
+      "car_name": "Bugatti Chiron",
+      "launch_year": 2021,
+      "seating_capacity": 2,
+      "fuel_type": "Gasoline",
+      "mileage": "4.8 km/l",
+      "shift_type": "Automatic"
+    }
+  ]
+}
